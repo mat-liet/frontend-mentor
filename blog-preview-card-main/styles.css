@@ -65,6 +65,11 @@ body {
   letter-spacing: 0px;
 }
 
+.title:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
 .description {
   color: hsl(0, 0%, 42%);
   font-size: 16px;
