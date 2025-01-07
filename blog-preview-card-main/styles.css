@@ -1,0 +1,94 @@
+body {
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  background-color: hsl(0, 0%, 100%);
+  box-sizing: border-box;
+  width: 384px;
+  height: fit-content;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  gap: 24px;
+  filter: drop-shadow(10px 10px);
+  border: solid thin;
+}
+
+.blog-image {
+  border-radius: 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-family: "Figtree";
+}
+
+.category {
+  background-color: hsl(47, 88%, 63%);
+  color: hsl(0, 0%, 7%);
+  padding: 4px 12px 4px 12px;
+  border-radius: 4px;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  width: fit-content;
+}
+
+.date {
+  color: hsl(0, 0%, 7%);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.title {
+  color: hsl(0, 0%, 7%);
+  font-size: x-large;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+
+.description {
+  color: hsl(0, 0%, 42%);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.author-img {
+  width: 32px;
+  height: 32px;
+}
+
+.author-name {
+  color: hsl(0, 0%, 7%);
+  font-weight: 800;
+  font-size: 14px;
+  font-family: "Figtree";
+}
