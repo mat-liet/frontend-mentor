@@ -1,0 +1,71 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: hsl(0, 0%, 8%);
+  font-family: "Inter";
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  gap: 24px;
+}
+
+.profile-pic {
+  width: 88px;
+  height: 88px;
+  border-radius: 999px;
+}
+
+.name-location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 150%;
+  gap: 4px;
+}
+
+.name {
+  color: hsl(0, 0%, 100%);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.bio {
+  font-size: 14px;
+  color: hsl(0, 0%, 100%);
+  line-height: 150%;
+  font-weight: 400;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.links button {
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+}
