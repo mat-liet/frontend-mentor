@@ -56,16 +56,29 @@ p {
   font-size: 14px;
   color: hsl(0, 0%, 100%);
   line-height: 150%;
-  font-weight: 400;
+  font-weight: 200;
 }
 
 .links {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  width: 100%;
 }
 
 .links button {
   background-color: hsl(0, 0%, 20%);
   color: hsl(0, 0%, 100%);
+  border: 0;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: 700;
+}
+
+button:hover {
+  cursor: url("./assets/images/handcursor.svg") 16 16, pointer;
+  color: hsl(0, 0%, 20%);
+  background-color: hsl(75, 94%, 57%);
 }
