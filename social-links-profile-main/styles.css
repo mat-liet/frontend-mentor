@@ -24,6 +24,8 @@ p {
   align-items: center;
   padding: 40px;
   gap: 24px;
+  width: 350px;
+  box-sizing: border-box;
 }
 
 .profile-pic {
@@ -81,4 +83,16 @@ button:hover {
   cursor: url("./assets/images/handcursor.svg") 16 16, pointer;
   color: hsl(0, 0%, 20%);
   background-color: hsl(75, 94%, 57%);
+}
+
+@media screen and (min-height: 1000px) {
+  .container {
+    width: 368px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    width: 340px;
+  }
 }
